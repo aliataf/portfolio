@@ -1,8 +1,23 @@
 <template>
-  <div>
+  <div class="bg-white dark:bg-primary">
+    <Navbar />
     <Nuxt />
   </div>
 </template>
+
+<script lang="ts">
+import Vue from 'vue'
+import Navbar from '@/components/Navbar.vue'
+
+export default Vue.extend({
+  components: {
+    Navbar,
+  },
+  mounted() {
+    document.documentElement.classList.add('dark')
+  },
+})
+</script>
 
 <style>
 html {
