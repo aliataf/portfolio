@@ -1,4 +1,8 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/42df70c9-3607-4447-b0c1-8a5f283b34ad/deploy-status)](https://app.netlify.com/sites/aliataf/deploys)
+
 # portfolio
+
+My portfolio
 
 ## Build Setup
 

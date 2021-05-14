@@ -2,7 +2,12 @@
   <nav class="flex justify-end px-10">
     <ul class="flex gap-2 max-w-lg text-center">
       <li class="max-w-20 h-16">
-        <NuxtLink to="/" class="nav-link" data-label="About" exact="">
+        <NuxtLink to="/" class="nav-link" data-label="Home" exact>
+          <span> Home </span>
+        </NuxtLink>
+      </li>
+      <li class="max-w-20 h-16">
+        <NuxtLink to="/about" class="nav-link" data-label="About">
           <span> About </span>
         </NuxtLink>
       </li>
