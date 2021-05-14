@@ -1,5 +1,5 @@
 <template>
-  <div class="container">
+  <div>
     <PortfolioWord />
   </div>
 </template>
@@ -15,8 +15,4 @@ export default Vue.extend({
 })
 </script>
 
-<style lang="postcss" scoped>
-.container {
-  @apply min-h-screen w-screen mx-auto;
-}
-</style>
+<style lang="postcss" scoped></style>

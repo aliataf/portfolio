@@ -39,6 +39,13 @@ html {
   margin: 0;
 }
 
+body {
+  width: 100vw;
+  height: 100vh;
+  padding: 0;
+  overflow-x: hidden;
+}
+
 .button--green {
   display: inline-block;
   border-radius: 4px;
