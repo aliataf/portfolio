@@ -1,6 +1,15 @@
 <template>
-  <div>
+  <div class="flex justify-between">
     <PortfolioWord />
+    <nuxt-img
+      provider="cloudinary"
+      src="/v1621173616/me_u2wdim.png"
+      width="500"
+      height="500"
+      fit="fill"
+      :modifiers="{ gravity: 'subject' }"
+    />
+    <div>s</div>
   </div>
 </template>
 

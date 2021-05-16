@@ -31,6 +31,7 @@ export default {
     '@nuxt/typescript-build',
     // https://go.nuxtjs.dev/tailwindcss
     '@nuxtjs/tailwindcss',
+    '@nuxt/image',
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
@@ -42,5 +43,11 @@ export default {
   tailwindcss: {
     cssPath: '~/assets/css/styles.css',
     exposeConfig: true,
+  },
+
+  image: {
+    cloudinary: {
+      baseURL: 'https://res.cloudinary.com/alilo/image/upload/',
+    },
   },
 }
